@@ -1,1 +1,193 @@
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdm.jsdlivr.net/npm/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+
+        <div class="menu container">
+            <img class="logo-1" src="imagenes/Imagen2.jpg" alt="">
+            <input type="checkbox" id="menu" />
+            <label for="menu">
+                <img src="imagenes/Imagen2.png" class="menu-icono" alt="">
+            </label>
+            <nav class="navbar">
+                <div class="menu-1">
+                    <ul>
+                        <div class="botones">
+                            <a hrf="#" class="btn-1">Nosotros</a>
+                            <a hrf="#" class="btn-1">Historia</a>
+                            <a hrf="#" class="btn-1">Video</a>
+                        </div>
+                    </ul>
+                </div>
+
+                <div class="slider-txt">
+                    <h1>Bienvenidos a Valle grande</h1>
+                   
+                </div>
+                <img class="logo-2" src="imagenes/imagen4.png" alt="">
+                </div>
+            </nav>
+        </div class="header-content container">
+
+        <div class="swiper mySwiper-1">
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide">
+                    <div class="slider">
+                       
+                        <div class="slider-txt">
+                            
+                            <h1>Quienes somos</h1>
+                            <p>
+                                Valle Grande es actualmente un Centro de Educación Superior constituido por la Promotora
+                                de Obras Sociales y de Instrucción Popular (PROSIP) el 25 de febrero de 1965, reconocido
+                                por el Ministerio de Agricultura mediante Resolución Directoral N° 04383-AG-DGAG del 2
+                                de junio de 1983 y por el Ministerio de Educación mediante Resolución Ministerial
+                                N°0751-92-ED.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper mySwiper-1">
+                    <div class="swiper-wrapper">
+
+                        <div class="swiper-slide">
+                            <div class="slider">
+                                <div class="slider-txt">
+                                    <h1>Desarrollo Histórico</h1>
+                                    <p>
+                                        Han transcurrido casi 50 años de trabajo y continuamos con el mismo deseo,
+                                        seguir contribuyendo con el bienestar de las familias de Cañete y Yauyos.
+                                    </p>
+                                    <div class="botones">
+                                        <a hrf="#" class="btn-1">Leer Más</a>
+                                    </div>
+                                    <img class="logo-2" src="imagenes/Imagen3.jpg" alt="">
+
+                </div>
+                                </div>
+                                <div class="slider-img">
+                                    <img src="imagenes/imagen1.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper mySwiper-1">
+                            <div class="swiper-wrapper">
+
+                                <div class="swiper-slide">
+                                    <div class="slider">
+                                        <div class="slider-txt">
+                                            <h1>Misión y Visión</h1>
+                                            <h1>Misión</h1>
+                                            <p>
+                                                Formar personas en el ámbito técnico profesional, considerando el
+                                                sentido trascendente del hombre, desarrollando en ellos competencias,
+                                                que faciliten su inserción laboral, contribuyendo de esta manera al
+                                                desarrollo del país.
+                                            </p>
+                                            <h1>Visión</h1>
+                                            <p>Ser una institución referente de excelencia de la educación técnico
+                                                profesional del Perú, asociada al sector productivo.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-button-next"></div>
+                                <div class="swiper-button-prev"></div>
+                                <div class="swiper-pagination"></div>
+                            </div>
+
+                        </div>
+    </header>
+
+
+    <section class="info container">
+
+        <div class="info-txt">
+            <a href="https://vallegrande.edu.pe/nosotros/autoridades/" class="btn-2">ORGANIGRAMA</a>
+        </div>
+    </section>
+
+    <section class="info container">
+        <div class="info-txt">
+            
+
+        </div>
+    </section>
+
+    <section class="info container">
+        <div class="info-txt">
+            <a href="https://www.youtube.com/@vallegrande_/videos" class="btn-3">Visita nuestro canal de YouTube</a>
+            <div class="video">
+                <video src="1.mp4" width="800px" controls></video>
+            </div>
+            
+
+        </div>
+
+    </section>
+
+    <section class="horario">
+        <div class="horario-info container">
+
+            <h2>Contacto</h2>
+            <div class="horario-txt"></div>
+            <div class="txt">
+                <h4>Direccion</h4>
+                <p>
+                    RUC: 20120099095
+                </p>
+                <p>
+                    Razón Social: I.E.S.T.P. Valle Grande
+                </p>
+                <p>
+                    Ant. Panamericana Sur: Km. 144,
+                </p>
+                <p>
+                    San Vicente de Cañete, Lima, Perú. Apartado Postal 70.
+                </p>
+            </div>
+            <div class="txt">
+                <h4>Teléfono</h4>
+                <p>
+                    (01) 581-2261
+                </p>
+            </div>
+            <div class="txt">
+                <h4>Informes</h4>
+                <p>
+                    informes@vallegrande.edu.pe
+                </p>
+            </div>
+            <div class="info-txt">
+                    <a href="https://vallegrande.edu.pe/" class="btn-2">www.vallegrande.edu.pe</a>
+                </div>
+        
+            </div>
+        </div>
+
+    </section>
+
+    <section>
+        <iframe class="map"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3886.2768281926988!2d-76.3877879!3d-13.081633999999985!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x910ff935c4a035bb%3A0x1b32f04916c31d1c!2sIES%20Valle%20Grande!5e0!3m2!1ses-419!2spe!4v1709421082254!5m2!1ses-419!2spe"
+            width="100%" height="500" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
